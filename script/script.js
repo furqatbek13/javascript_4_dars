@@ -277,3 +277,138 @@
 
 
 // 22-misol
+// let A = Math.floor(prompt("A ning qiymatini kiriting: "));
+// let B = Math.floor(prompt("B ning qiymatini kiriting: "));
+// let joylashtirilganKesmalar = 0; 
+// let qoldiqA = A;  
+
+// while (qoldiqA >= B) { 
+//     qoldiqA -= B;  
+//     joylashtirilganKesmalar++; 
+// }
+// console.log("B kesmasini joylashtirish mumkin bo'lgan soni: " + joylashtirilganKesmalar);
+
+
+// 23-misol
+// let n = Math.floor(prompt("n ning qiymatini kriting: ")); 
+// let daraja = 1; 
+
+// while (daraja < n) { 
+//     daraja *= 3; 
+// }
+
+// if (daraja === n) {
+//     console.log(n + " - ning darajasi");
+// } else {
+//     console.log(n + " - ning darajasi emas");
+// }
+
+
+// 24-misol
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let m = Math.floor(prompt("m ning qiymatini kiriting: "));
+// let butunQismi = 0; 
+// let qoldiq = n; 
+// while (qoldiq >= m) {
+//     qoldiq -= m;    
+//     butunQismi++;     
+// }
+// console.log("Butun qismi: " + butunQismi);
+// console.log("Qoldiq: " + qoldiq);
+
+
+// 25-misol
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let teskariRaqamlar = "";
+// while (n > 0) { 
+//     var qoldiq = n % 10;   
+//     teskariRaqamlar += qoldiq; 
+//     n = Math.floor(n / 10);
+// }
+// console.log("Teskari raqamlar: " + teskariRaqamlar);
+
+
+// 26-misol
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let raqamlarYigindisi = 0; 
+// let raqamlarSoni = 0; 
+// while (n > 0) {
+//     let qoldiq = n % 10;
+//     raqamlarYigindisi += qoldiq;
+//     raqamlarSoni++;    
+//     n = Math.floor(n / 10);
+// }
+// console.log("Raqamlar yig'indisi: " + raqamlarYigindisi);
+// console.log("Raqamlar soni: " + raqamlarSoni);
+
+
+// 27-misol 
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let raqam2Mavjud = false;
+// while (n > 0) {
+//     let qoldiq = n % 10;   
+//     if (qoldiq === 2) {
+//         raqam2Mavjud = true;
+//         break;              
+//     }
+    
+//     n = Math.floor(n / 10); 
+// }
+
+// if (raqam2Mavjud) {
+//     console.log("Berilgan sonning raqamlarida 2 raqami mavjud.");
+// } else {
+//     console.log("Berilgan sonning raqamlarida 2 raqami mavjud emas.");
+// }
+
+
+// 28-misol 
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let toqRaqamMavjud = false; 
+// while (n > 0) {
+//     let qoldiq = n % 10;   
+//     if (qoldiq % 2 !== 0) {
+//         toqRaqamMavjud = true;
+//         break;               
+//     }
+    
+//     n = Math.floor(n / 10); 
+// }
+// if (toqRaqamMavjud) {
+//     console.log("Berilgan sonning raqamlarida toq raqam mavjud.");
+// } else {
+//     console.log("Berilgan sonning raqamlarida toq raqam mavjud emas.");
+// }
+
+
+// 29-misol
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let aslSon = n;
+// let teskariSon = 0;
+
+// while (n > 0) { 
+//     let qoldiq = n % 10;       
+//     teskariSon = teskariSon * 10 + qoldiq; 
+//     n = Math.floor(n / 10);    
+// }
+// if (aslSon === teskariSon) {
+//     console.log("True"); 
+// } else {
+//     console.log("False"); 
+// }
+
+
+// 30-misol
+// let n = Math.floor(prompt("n ning qiymatini kiriting: "));
+// let tub = true; 
+// for (let i = 2; i < n; i++) {
+//     if (n % i === 0) { 
+//         tub = false;
+//         break; 
+//     }
+// }
+// if (tub) {
+//     console.log(n + " tub son.");
+// } else {
+//     console.log(n + " tub emas.");
+// }
